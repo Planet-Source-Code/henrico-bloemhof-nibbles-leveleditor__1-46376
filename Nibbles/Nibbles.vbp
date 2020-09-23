@@ -1,0 +1,51 @@
+Type=Exe
+Reference=*\G{00020430-0000-0000-C000-000000000046}#2.0#0#C:\WINDOWS\System32\stdole2.tlb#OLE Automation
+Form=Leveleditor\frmLevelEditor (English).frm
+Object={831FDD16-0C5C-11D2-A9FC-0000F8754DA1}#2.0#0; mscomctl.ocx
+UserControl=Knop.ctl
+UserControl=Theme.ctl
+Form=frmNibbles (English).frm
+Form=frmMenu (English).frm
+Module=modNibbles; modNibbles.bas
+Startup="frmNibbles"
+HelpFile=""
+Title="Nibbles"
+ExeName32="Nibbles.exe"
+Path32="F:\Nibbles"
+Command32=""
+Name="Nibbles"
+HelpContextID="0"
+CompatibleMode="0"
+MajorVer=1
+MinorVer=0
+RevisionVer=2
+AutoIncrementVer=1
+ServerSupportFiles=0
+VersionCompanyName="HB Software Design"
+VersionFileDescription="Nibbles"
+VersionLegalCopyright="Copyright (c) 2002 HB Software Design"
+VersionProductName="Nibbles"
+CompilationType=0
+OptimizationType=0
+FavorPentiumPro(tm)=0
+CodeViewDebugInfo=0
+NoAliasing=0
+BoundsCheck=0
+OverflowCheck=0
+FlPointCheck=0
+FDIVCheck=0
+UnroundedFP=0
+StartMode=0
+Unattended=0
+Retained=0
+ThreadPerObject=0
+MaxNumberOfThreads=1
+
+[MS Transaction Server]
+AutoRefresh=1
+
+[RVB]
+DeleteClass1=frmNibbles
+DeleteClass2=frmNibbles
+DeleteClass3=frmMain
+DeleteClass4=frmMain
